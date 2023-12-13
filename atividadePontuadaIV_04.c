@@ -27,7 +27,7 @@ float saque, depositar;
 
 struct conta_bancaria conta;
 
-printf ("\nInforme o número da conta: ");
+printf ("\nInforme o nÃºmero da conta: ");
 gets(conta.numero);
 
 printf ("\nInfomre o nome do titular: ");
@@ -37,13 +37,13 @@ printf ("\nInforme o saldo na conta: ");
 scanf ("%f", &conta.saldo);
 fflush (stdin);
 
-printf ("\nInforme o tipo da conta (Poupança ou Corrente): ");
+printf ("\nInforme o tipo da conta (PoupanÃ§a ou Corrente): ");
 gets(conta.tipo);
 
 
 menuDeOpcoes();
 
-printf ("\nInforme a opção: ");
+printf ("\nInforme a opÃ§Ã£o: ");
 scanf ("%d", &opcao);
 
 
@@ -74,7 +74,7 @@ switch (opcao)
 	break;
 	
 	default: 
-	printf ("Opção invalida!");		
+	printf ("OpÃ§Ã£o invalida!");		
 }
 
 
