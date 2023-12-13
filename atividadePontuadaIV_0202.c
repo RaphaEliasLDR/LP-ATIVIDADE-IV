@@ -12,7 +12,7 @@ float calcularMedia (struct dados_aluno *aluno, notas[][2]){
 	float media;
 	
 	for (j = 0; j < 2; j++){
-			printf ("\n%dº nota: ", j+1);
+			printf ("\n%dÂº nota: ", j+1);
 			scanf ("%f", &aluno[i].notas[j]);
 			somarNotas += aluno[i].notas[j];
 		}
